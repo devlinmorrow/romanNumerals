@@ -23,4 +23,10 @@ class ArabicToRomanTest {
         ArabicToRoman arabicToRoman = new ArabicToRoman();
         assertEquals("II", arabicToRoman.convert(2));
     }
+
+    @Test
+    public void converts3ToIII() {
+        ArabicToRoman arabicToRoman = new ArabicToRoman();
+        assertEquals("III", arabicToRoman.convert(3));
+    }
 }
